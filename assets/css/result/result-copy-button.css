@@ -1,0 +1,59 @@
+.result__copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.result__copy-btn {
+    background-color: #fff;
+    color: var(--color-primary);
+    width: 300px;
+    border-radius: 24px;
+    padding: 24px;
+    flex-shrink: 1;
+    outline: none;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.result__copy-btn-ok {
+    background-color: var(--color-copy);
+    color: #fff;
+    width: 300px;
+    border-radius: 24px;
+    padding: 24px;
+    flex-shrink: 1;
+    outline: none;
+    border: 1px solid var(--color-white);
+    cursor: pointer;
+}
+
+.result__copy-btn:hover {
+    background-color: var(--color-light-gray);
+}
+
+
+@media screen and (max-width: 1024px){
+    .result__copy-btn{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .result__copy-btn{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 375px){
+    .result__copy-btn{
+        width: 80%;
+    }
+}

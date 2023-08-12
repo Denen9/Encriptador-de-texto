@@ -1,0 +1,108 @@
+.user__btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.user__btn-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__btn-i {
+    margin-right: 5px;
+    color: var(--color-dark-gray);
+}
+
+.user__btn-information{
+    color: var(--color-dark-gray);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.user-invalid{
+    margin-right: 5px;
+    color: var(--color-invalid);
+    
+}
+
+.information-invalid{
+    color: var(--color-invalid);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.user__btn-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user__btn-encriptar{
+    background-color: var(--color-primary);
+    color: var(--background);
+}
+
+.user__btn-encriptar:hover {
+    background-color: var(--color-primary-hover);
+}
+.user__btn-encriptar:active {
+    background-color: var(--color-primary-active);
+}
+
+.user__btn-desencriptar{
+    background-color: var(--color-gradient);
+    color: var(--color-primary);
+}
+
+.user__btn-desencriptar:hover {
+    background-color: var(--color-light-gray-hover);
+}
+.user__btn-desencriptar:active {
+    background-color: var(--color-gray);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .user__btn{
+        width: 90%;
+
+    }
+    .user__btn-buttons {
+        justify-content: center;
+    }
+    .user__btn-information {
+        align-self: center;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .user__btn{
+        width: 90%;
+    }
+    .user__btn-buttons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .user__btn {
+        width: 90%;
+    }
+    .user__btn-buttons {
+        display: flex;
+        flex-direction: column;
+}
+
+}

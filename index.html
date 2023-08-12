@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/logo.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/user/user.css">
+    <link rel="stylesheet" href="assets/css/user/user-buttons.css">
+    <link rel="stylesheet" href="assets/css/user/user-textarea.css">
+    <link rel="stylesheet" href="assets/css/result/result.css">
+    <link rel="stylesheet" href="assets/css/result/result-textarea.css">
+    <link rel="stylesheet" href="assets/css/result/result-copy-button.css">
+    <script src="https://kit.fontawesome.com/f09d609c96.js" crossorigin="anonymous"></script>
+    <title>Encriptador - Alura</title>
+</head>
+<body>
+    <header class="header">
+        <a src="https://www.aluracursos.com/"><img class="header__img" src="assets/images/Logo.png"></a>
+    </header>
+    <main class="main">
+        <section class="user">
+            <textarea class="user__textarea" placeholder="Ingrese el texto aqui"></textarea data->
+            <div class="user__btn">
+                <div class="user__btn-div">
+                    <i id="i" class="fa-solid fa-circle-exclamation user__btn-i"></i><h6 id="h6" class="user__btn-information">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="user__btn-buttons">
+                    <button class="user__btn-encriptar btn" >Encriptar</button>
+                    <button class="user__btn-desencriptar btn">Desencriptar</button>
+                </div>     
+            </div>
+        </section>
+        <section class="result">
+            <img src="./assets/images/Muñeco.png" alt="Muñeco" class="result__img">
+            <h4 class="result__title">Vaya! no hay textos encriptados por aqui.</h4>
+            <textarea class="result__textarea display-none"></textarea>
+            <div class="result__copy">
+                <button class="result__copy-btn display-none">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

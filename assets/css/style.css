@@ -1,0 +1,20 @@
+:root {
+    --background: #d7dffd;
+    --color-primary: #0A3871;
+    --color-primary-hover: #0a3161;
+    --color-primary-active: #092950;
+    --color-light-gray: #D8DFE8;
+    --color-gray: #5b6168;
+    --color-dark-gray: #343A40;
+    --color-invalid: #ff1010;
+    --color-copy: #00aa00;
+    --color-gradient: linear-gradient(90deg, rgba(215,223,253,1) 0%, rgba(141,172,212,1) 41%, rgba(40,70,107,0.7679446778711485) 82%) ;
+
+    
+}
+
+body{
+    font-family: Inter;
+    background: rgb(215,223,253);
+    background: linear-gradient(90deg, rgba(215,223,253,1) 0%, rgba(141,172,212,1) 41%, rgba(40,70,107,0.7679446778711485) 82%);
+}

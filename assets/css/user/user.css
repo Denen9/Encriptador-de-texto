@@ -1,0 +1,25 @@
+.user {
+    width: 70%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+    .user {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+    
+@media screen and (max-width: 768px) {
+    .user {
+        height: auto;
+    }
+}

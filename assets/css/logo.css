@@ -1,0 +1,30 @@
+.header__img {
+    width: 120px;
+    height: 48px;
+    transform: translateX(20px) translateY(20px);
+    flex-shrink: 1; 
+}
+
+@media screen and (max-width: 1024px) {
+    .header__img{
+        width: 100px;
+        height: 40px;                  
+        transform: translateX(-10px) translateY(10px);
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .header__img {
+        width: 100px;
+        height: 40px;                  
+        transform: translateX(-15px) translateY(10px); 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__img {
+        width: 80px;
+        height: 30px;
+        transform: translateX(-20px) translateY(10px); 
+    }
+}
