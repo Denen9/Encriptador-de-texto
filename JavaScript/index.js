@@ -80,7 +80,7 @@ userTextArea.addEventListener('keydown', (event)=> {
 
 //Funcion para encriptar
 const encriptar = (stringEncriptada)=> {
-    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "omes"], ["u", "ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase()
 
     for(let i = 0; i < matrizCodigo.length; i++){
@@ -102,7 +102,7 @@ btnDesencriptar.addEventListener('click', ()=>{
 
 //Funcion para desencriptar
 const desencriptar = (stringDesencriptada)=>{
-    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]] ;
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "omes"], ["u", "ufat"]] ;
     stringDesencriptada = stringDesencriptada.toLowerCase()
 
     for(let i = 0; i < matrizCodigo.length; i++){

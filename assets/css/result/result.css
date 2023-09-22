@@ -1,24 +1,21 @@
+
 .result{
+    height: 500px;
+    width: 370px;
     background-color: #fff;
-    filter: opacity(.9);
     display: flex;
     flex-direction: column; 
     align-items: center;
-    justify-content: space-between;                                                                                                                             
-    width: 30%;
-    height: 550px;
+    justify-content: space-between;                                                                                                                            
     border-radius: 32px;
-    padding-bottom: 32px;
-    margin: 0 2rem;
+    padding-bottom: 3rem;
+    
     
 }
 
 @media screen and (max-width: 1024px) {
     .result {                                                                                                                        
         width: 100%;
-        height: 100%;
-        margin: 4rem 20rem;
-
     }
 
 }
@@ -27,14 +24,14 @@
     .result {
         margin: 1rem 0;
         width: 100%;
-        height: 100%;
+        height: 400px;
+
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
     .result {
         width: 100%;
-        height: 100%;
         margin: .75rem 0;
     }
 }

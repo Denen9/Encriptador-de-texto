@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/logo.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/user/user.css">
@@ -23,12 +22,12 @@
     <title>Encriptador - Alura</title>
 </head>
 <body>
-    <header class="header">
-        <a src="https://www.aluracursos.com/"><img class="header__img" src="assets/images/Logo.png"></a>
-    </header>
     <main class="main">
         <section class="user">
-            <textarea class="user__textarea" placeholder="Ingrese el texto aqui"></textarea data->
+            <div class="user-logo">
+                <a src="https://www.aluracursos.com/"><img class="user-logo__img" src="assets/images/Logo.png"></a>
+            </div>
+            <textarea class="user__textarea" placeholder="Ingrese el texto aqui">H</textarea data->
             <div class="user__btn">
                 <div class="user__btn-div">
                     <i id="i" class="fa-solid fa-circle-exclamation user__btn-i"></i><h6 id="h6" class="user__btn-information">Solo letras minúsculas y sin acentos</h6>
@@ -51,6 +50,6 @@
     <footer>
         
     </footer>
-    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/index.js"></script>
 </body>
 </html>

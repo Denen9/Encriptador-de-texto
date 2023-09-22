@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
     .header__img {
         width: 80px;
         height: 30px;

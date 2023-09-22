@@ -1,11 +1,16 @@
 .user {
-    width: 70%;
-    height: 550px;
+    width: 700px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 32px;
+    padding-bottom: 3rem;
+
+}
+
+.user-logo {
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
